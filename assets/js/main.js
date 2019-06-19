@@ -1,3 +1,13 @@
-//= ../../../node_modules/jquery/dist/jquery.js
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
 
-//= components/test.js
+
+$(document).ready(function(){
+    $('.slider').bxSlider();
+});

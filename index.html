@@ -1,107 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.min.css">
 
-    <!-- Useful meta tags -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="robots" content="index, follow, noodp">
-    <meta name="googlebot" content="index, follow">
-    <meta name="google" content="notranslate">
-    <meta name="format-detection" content="telephone=no">
+  <!-- Useful meta tags -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow, noodp">
+  <meta name="googlebot" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
 
-    <!-- Favicons for all devices -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/i/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/i/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="assets/i/favicons/manifest.json">
-    <link rel="mask-icon" href="assets/i/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-    <title>Template Title</title>
+  <!-- Favicons for all devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/i/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/i/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/i/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/i/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/i/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+<!-- slider-->l
+  <link re="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- slider-->
+  <title>Template Title</title>
 </head>
 <body>
 
 
-<header>
-    <div class="wrapper">
-        <div class="top_gradient"></div>
-        <div class="headerTop">
-            <div class="headerTop__bg">
-                <div class="headerTop__contacts">
-                    <div class="headerTop__contacts--iteam"><img src="assets/i/icon_phone.png" alt="icon_phone">
-                    </div>
-                    <div class="headerTop__contacts--iteam"><a href="#">Call Us +777 (100) 1234</a></div>
-                </div>
-                <div class="headerTop__txt"><p>Welcome visitor you can <span> login </span> or
-                    <span> create new account</span>
-                </p></div>
-                <div class="headerTop__btnRadio">
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_laung">EN</button>
-                    </div>
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_laung">FR</button>
-                    </div>
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_laung">GM</button>
-                    </div>
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_currency">$</button>
-                    </div>
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_currency">€</button>
-                    </div>
-                    <div class="headerTop__btnRadio--iteam">
-                        <button id="btn_currency">£</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--            headerDashboard__-->
-        <div class="headerDashboard">
-            <div class="headerDashboard__logo"><img class="logo_breeze" src="assets/i/logo_breeze.png"
-                                                    alt="logo_breeze">
-                <div class="headerDashboard__search">
-                    <div class="box">
-                        <div class="container-1">
-                            <span class="icon"><i class="fa fa-search"></i></span>
-                            <input type="search" id="search" placeholder="Search entire search here..."/>
+<!--  <header>-->
+<!--    <div class="wrapper">-->
+<!--      <div class="top_gradient"></div>-->
+<!--      <div class="headerTop">-->
+<!--        <div class="headerTop__bg">-->
+<!--          <div class="headerTop__contacts">-->
+<!--            <div class="headerTop__contacts&#45;&#45;iteam"><img src="assets/i/icon_phone.png" alt="icon_phone">-->
+<!--            </div>-->
+<!--            <div class="headerTop__contacts&#45;&#45;iteam"><a href="#Call">Call Us +777 (100) 1234</a></div>-->
+<!--          </div>-->
+<!--          <div class="headerTop__txt"><p>Welcome visitor you can<a href="#login">&nbsp;login</a>&nbsp;or-->
+<!--             <a href="#new_acc">&nbsp;create new account</a>-->
+<!--          </p></div>-->
+<!--          <div class="headerTop__btnRadio">-->
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam">-->
+<!--              <button id="btn_laung">EN</button>-->
+<!--            </div>-->
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam">-->
+<!--              <button id="btn_laung">FR</button>-->
+<!--            </div>-->
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam">-->
+<!--              <button id="btn_laung">GM</button>-->
+<!--            </div>-->
 
-                        </div>
-                    </div>
-                </div>
-                <div class="headerDashboard__enter">
-                    <div class="headerDashboard__enter--iteam"><a href="#">My Account </a></div>
-                    <div class="headerDashboard__enter--iteam"><a href="#">My Wishlist</a></div>
-                    <div class="headerDashboard__enter--iteam"><a href="#">Log In </a></div>
-                    <div class="headerDashboard__enter--iteam"><a href="#">Sign Up </a></div>
-                    <div class="headerDashboard__enter--iteam">
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam" id="doll">-->
+<!--              <button id="btn_currency">$</button>-->
+<!--            </div>-->
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam">-->
+<!--              <button id="btn_currency">€</button>-->
+<!--            </div>-->
+<!--            <div class="headerTop__btnRadio&#45;&#45;iteam">-->
+<!--              <button id="btn_currency">£</button>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;            headerDashboard__&ndash;&gt;-->
+<!--      <div class="headerDashboard">-->
+<!--        <div class="headerDashboard__logo"><a href="#"><img class="logo_breeze" src="assets/i/logo_breeze.png"-->
+<!--                                                            alt="logo_breeze"></a></div>-->
+<!--          <div class="headerDashboard__search">-->
+<!--            <div class="box">-->
+<!--              <div class="container-1">-->
+<!--                <span class="icon"><i class="fa fa-search"></i></span>-->
+<!--                <input type="search" id="search" placeholder="Search entire search here..."/>-->
 
-                        <button><img src="assets/i/icon_cart.png" alt="icon_cart"> Cart $0.00</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="headerNav">
-            <div class="headerNav__groups"><a href="#">Home </a></div>
-            <div class="headerNav__groups"><a href="#">Solids</a></div>
-            <div class="headerNav__groups"><a href="#">Liquids</a></div>
-            <div class="headerNav__groups"><a href="#">Spray</a></div>
-            <div class="headerNav__groups"><a href="#">Electric</a></div>
-            <div class="headerNav__groups"><a href="#">For cars</a></div>
-        </div>
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="headerDashboard__enter">-->
+<!--            <div class="headerDashboard__enter&#45;&#45;iteam"><a href="#">My Account </a></div>-->
+<!--            <div class="headerDashboard__enter&#45;&#45;iteam"><a href="#">My Wishlist</a></div>-->
+<!--            <div class="headerDashboard__enter&#45;&#45;iteam"><a href="#">Log In</a></div>-->
+<!--            <div class="headerDashboard__enter&#45;&#45;iteam"><a href="#">Sign Up </a></div>-->
+<!--            <div class="headerDashboard__enter&#45;&#45;iteam">-->
+<!--              <button><img src="assets/i/icon_cart.png" alt="icon_cart"><p>Cart<span>$0.00</span></p></button>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--      </div>-->
+<!--&lt;!&ndash;      headerNav&ndash;&gt;-->
+<!--      <div class="headerNav">-->
+<!--        <div class="topnav" id="myTopnav">-->
+<!--          <a href="#home" class="active">Home</a>-->
+<!--          <a href="#solids">Solids</a>-->
+<!--          <a href="#liquids">Liquids</a>-->
+<!--          <a href="#spray">Spray</a>-->
+<!--          <a href="#electric">Electric</a>-->
+<!--          <a href="#cars">For cars</a>-->
+<!--          <a href="javascript:void(0);" class="icon" onclick="myFunction()">-->
+<!--            <i class="fa fa-bars"></i>-->
+<!--          </a>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </header>-->
+<content>
+  <div class="frame">
+    <div class="slider">
+      <div><img src="assets/i/" alt="slider_breeze"></div>
+      <div><img src="assets/i/image_breeze.png" alt="slider_breeze"></div>
+      <div><img src="assets/i/slider_breeze.png" alt="slider_breeze"></div>
+
     </div>
+  </div>
 
-</header>
+  <style>
+    .bx-wrapper .bx-next {
+      right: 10px;
+      background: url(' assets/i/Slice_Right.png')  no-repeat  -8px  2px;
+    }
+  </style>
 
 
-<!-- JS -->
-<script src="assets/js/main.js"></script>
+</content>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 </html>
