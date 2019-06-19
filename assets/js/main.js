@@ -7,7 +7,12 @@ function myFunction() {
     }
 }
 
-
 $(document).ready(function(){
-    $('.slider').bxSlider();
+    $('.bxslider').bxSlider({
+        nextText:'',
+        prevText:'',
+        useCSS: false,
+        easing: 'jswing',
+        speed: 500
+    });
 });
